@@ -51,13 +51,13 @@ public class ControladorOT {
     }
     //Metodos de crear Paquete
     
-    public void CrearPaquete(String nombre, String descripcion, String cc) {
+    public void CrearPaquete(String nombre, String descripcion,String cc) {
         temp.setCondComerciales(vistaPaquete.getCC());
-        temp.setDescripcion(vistaPaquete.getDescripcion());
+        temp.setDescripcion(descripcion);
         temp.setDias(vistaPaquete.getDias());
         temp.setNoches(vistaPaquete.getNoches());
         temp.setItinerario(vistaPaquete.getItinerario());
-        temp.setNombre(vistaPaquete.getNombre());
+        temp.setNombre(nombre);
         repositorio.getPaquetes().add(temp);
         temp=null;
         temp= new Paquete();
