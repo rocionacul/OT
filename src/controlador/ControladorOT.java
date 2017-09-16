@@ -51,7 +51,7 @@ public class ControladorOT {
     }
     //Metodos de crear Paquete
     
-    public void CrearPaquete(String cc) {
+    public void CrearPaquete(String nombre, String descripcion, String cc) {
         temp.setCondComerciales(vistaPaquete.getCC());
         temp.setDescripcion(vistaPaquete.getDescripcion());
         temp.setDias(vistaPaquete.getDias());

@@ -420,9 +420,9 @@ public class vistaCrearPaquete extends javax.swing.JFrame {
     }//GEN-LAST:event_botonAgregarSerActionPerformed
 
     private void botonCPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCPActionPerformed
-       control.CrearPaquete(txtCC.getText());
+       control.CrearPaquete(campoNombre.getText(), campoDescripcion.getText(), txtCC.getText());
        JOptionPane.showMessageDialog(this, "Paquete creado, estado Activo");
-       //volver aqui
+       //volver aqui 
     }//GEN-LAST:event_botonCPActionPerformed
 
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
